@@ -6,4 +6,53 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.google-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  padding: 0 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-link {
+  padding-left: 15px;
+}
+
+.main-content {
+  margin: auto;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-field {
+  width: 100%;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
 }
